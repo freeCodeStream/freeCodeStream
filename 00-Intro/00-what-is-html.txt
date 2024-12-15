@@ -1,0 +1,121 @@
+What is HTML?
+
+HTML: HyperText Markup Language
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the 
+meaning and structure of web content. Other technologies besides HTML are generally used
+to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+
+Key Terminology:
+
+HyperText:
+"HyperText" refers to the ability to link to other resources on the web, such as other pages,
+documents, or images. These links are called hyperlinks, which are a core feature of the web.
+
+
+Markup Language:
+HTML uses special tags to "mark up" text, meaning it adds instructions that tell the browser how
+to display the content. 
+For example, <h1> marks a headline, and <p> marks a paragraph.
+
+
+"Hypertext" refers to links that connect web pages to one another, either within a single website
+or between websites. Links are a fundamental aspect of the Web. By uploading content to
+the Internet and linking it to pages created by other people, you become an active participant
+in the World Wide Web.
+
+HTML uses "markup" to annotate text, images, and other content for display in a Web browser.
+HTML markup includes special "elements" such as
+    <head>
+    <title>
+    <body>
+    <header>
+    <footer>
+    <article>
+    <section> 
+    <p>
+    <div>
+    <span>
+    <img> 
+    <aside>
+    <audio>
+    <canvas>
+    <datalist>
+    <details> 
+    <embed>
+    <nav>
+    <search>
+    <output>
+    <progress>
+    <video>
+    <ul>
+    <ol> 
+    <li> and many others.
+
+An HTML element is set off from other text in a document by "tags", which consist of the element
+name surrounded by '<' and '>'. The name of an element inside a tag is case-insensitive. That is,
+it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be
+written as <Title>, <TITLE>, or in any other way. However, the convention and recommended practice
+is to write tags in lowercase.
+
+
+
+
+1. Why is HTML Important?
+HTML is the foundation of every website you visit. Without it, there would be no websites, just raw
+data. It tells the web browser (like Chrome or Firefox) what content to show and how it should be
+structured.
+
+
+2. The Role of HTML in Web Development
+Web development typically involves three main technologies working together:
+
+  HTML (Structure):
+  Defines the structure of the web page. It organizes the content into elements like headings,
+  paragraphs, images, and links.
+
+  CSS (Styling):
+  Stands for Cascading Style Sheets. CSS is used to style and visually design the page.
+  For example, you can change colors, fonts, and layouts.
+
+  JavaScript (Interactivity):
+  Adds dynamic behavior to web pages, like dropdown menus, animations, and form validations.
+
+
+3. How HTML Works in Practice:
+
+Browser Rendering:
+When you type a URL into a browser, it retrieves the HTML file from a server and displays the page.
+The browser reads the HTML code and translates it into what you see (text, images, etc.).
+
+Structure and Accessibility:
+HTML ensures content is well-organized and accessible. For example, screen readers for visually
+impaired users rely on correctly written HTML to describe a web page.
+
+Let’s Look at an Example:
+Below is a simple HTML document:
+
+==================================
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text on my first web page!</p>
+    <a href="https://example.com">Visit Example.com</a>
+  </body>
+</html>
+
+==================================
+
+Here is Explanation of the code:
+<!DOCTYPE html>: Tells the browser which HTML version is used.
+<html>: The root element, it contains all the HTML content.
+<head>: Contains metadata like the title of the page.
+<title>: Sets the page title shown in the browser tab.
+<body>: Contains the visible content of the page.
+<h1>: A headline.
+<p>: A paragraph of text.
+<a>: A hyperlink that links to another page.

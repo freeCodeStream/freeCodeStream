@@ -1,0 +1,60 @@
+How the Web Works
+
+The web is an essential part of our daily lives, yet many people use it without understanding how 
+it actually works. At its core, the web operates on a concept known as the client-server model. 
+This model forms the foundation of how computers communicate over the internet to deliver the 
+webpages, apps, and services we use every day.
+
+1. The Client-Server Model: An Overview
+This model is a method of communication between two types of computers:
+
+Clients:
+Devices like your laptop, smartphone, or tablet. A client is responsible for initiating a request
+for data or services.
+
+Servers:
+Computers that store and manage data, applications, or resources. A server listens for requests
+from clients and responds with the necessary data or service.
+
+To visualize this, imagine a customer (client) ordering food in a restaurant and the kitchen
+(server) preparing and serving it. The customer requests something, and the kitchen fulfills that
+request.
+
+2. Key Components of the Model
+
+Clients:
+Devices used by end-users.
+Run applications like web browsers (e.g., Chrome, Firefox).
+Generate requests for resources, such as web pages, images, or videos.
+
+Servers:
+Dedicated machines or services that respond to client requests. Host resources like websites
+(e.g. a news site or e-commerce platform) and make them available to clients.
+
+The Network:
+The medium through which clients and servers communicate, typically the internet. Typically Use 
+protocols (rules) like HTTP or HTTPS to exchange information.
+
+3. A Simple Example: Visiting a Website
+When you type a web address (e.g., www.example.com) into your browser, several steps happen almost
+instantly. Here’s a breakdown:
+
+The Request:
+Your browser (the client) sends a request to the server associated with the web address.
+This request is made using the HTTP protocol (HyperText Transfer Protocol). If security is needed,
+it uses HTTPS, which encrypts the communication.
+
+Finding the Server:
+Your request first passes through a system called DNS (Domain Name System). DNS translates
+the human-readable web address (www.example.com) into an IP address (e.g., 192.168.1.1), which
+identifies the server on the internet.
+
+
+The Server Responds:
+The server receives your request, processes it, and sends back the required data such as an HTML
+file, CSS, JavaScript, images or additional files if required.
+
+Rendering the Web Page:
+Your browser takes the data from the server and assembles it into the webpage you see. For example,
+the HTML provides the structure, CSS handles the design, and JavaScript enables dynamic elements
+like buttons or animations.
