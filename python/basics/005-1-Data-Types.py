@@ -1,11 +1,12 @@
 # Python Data Types
 # Category          Data Type
 # Numeric	–	int, float, complex
-# Sequence	–	string, list, tuple
+# Sequence	–	string, list, tuple, range
 # Mapping	–	dict
 # Boolean	–	bool
 # Set		–	set, frozenset
 # Binary 	–	bytes, bytearray, memoryview
+# None Type:	NoneType
 
 
 # Numeric types
