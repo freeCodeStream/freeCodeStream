@@ -60,12 +60,27 @@ full_name = "Zahra Hussaini"
 first_name = full_name[0:5]
 print("First name:", first_name)  # Zahra
 
+credit_number = '0123456789'
+print(credit_number[1])
+print(credit_number[0:4]) # start from index 0 and end at exclusive index 4
+print(credit_number[:4]) # could also write like this
+print(credit_number[5:9])
+print(credit_number[5:]) # print everything from index number 5 to end
+print(credit_number[-1]) # print last character
+print(credit_number[::2]) # print every second character from start to end of the string
+
 # Modify String (Uppercase, Lowercase, Title and replace.)
 note = "Today is a sunny day."
 print(note.upper())     # TODAY IS A SUNNY DAY.
 print(note.lower())     # today is a sunny day.
 print(note.title())     # Today Is A Sunny Day.
 print(note.replace("sunny", "rainy"))  # Today is a rainy day.
+print(note.capitalize())
+print(note.find(" ")) # The first space (between "Today" and "is") is at index 5
+print(note.rfind(" ")) #.rfind(" ") returns the last space, which is at index 16.
+print(note.isdigit()) # returns True only if the string contains only digits
+print(note.isalpha()) # returns True only if the string contains alphabet character not space/ digit
+print(note.count("a"))
 
 # String Concatenation
 # Combine first and last name
