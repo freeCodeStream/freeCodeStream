@@ -1,6 +1,6 @@
 DFU mode for Macbooks
 
 tested on Macbook Pro Model: A1989 EMC:3214 with intel processor
-Left Option + Left Control + Right Shift + power button (for 10 sec
+Left Option + Left Control + Right Shift + power button (for 10 sec)
 
 
